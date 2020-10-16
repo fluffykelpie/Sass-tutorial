@@ -235,6 +235,9 @@
   top: 0;
   opacity: 0.9;
 }
+.projects__item:hover .projects__btn {
+  opacity: 1;
+}
 .projects__btns {
   position: absolute;
   top: 0;
@@ -245,6 +248,14 @@
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   text-align: center;
+}
+.projects__btn {
+  opacity: 0;
+  color: #000;
+  transition: all 0.5s ease-in-out;
+}
+.projects__btn:hover {
+  color: #fff;
 }
 .projects .social-icons {
   display: flex;
