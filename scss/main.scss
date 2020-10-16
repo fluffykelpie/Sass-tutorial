@@ -19,6 +19,10 @@ a {
     text-decoration: none;
 }
 
+.text-secondary {
+    color: $secondary-color;
+}
+
 header {
     position: fixed;
     z-index: 2;
@@ -52,5 +56,6 @@ footer {
     bottom: 0.4rem;
     right: 1rem;
     text-align: right;
+    padding: 1rem;
     color: set-text-color($primary-color);
 }
